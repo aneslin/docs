@@ -1,7 +1,7 @@
 ---
 title: "Bulk Edit"
 linkTitle: "Bulk Edit"
-date: 2024-05-09
+date: 2025-03-11
 weight: 550
 ---
 
@@ -41,6 +41,7 @@ The following are the permissions for the Bulk edit app:
 
 ## Bulk edit methods
 
+**The maximum number of records allowed for bulk edit is 100,000.**
 
 The Bulk edit app provides two methods for editing records: 
 
@@ -66,6 +67,9 @@ To set the criteria and identify records for bulk edit, follow these steps:
 1. In the **Set criteria** pane, ensure **Record types** is set to **Inventory - holdings**.
 2. In the **Set criteria** pane, select the **Record identifier** from the drop-down list. The record identifier you select should correspond to the type of record identifier in the .csv file.
 3. Either **Drag and drop** your .csv file into the **Select a file** box, or click **or choose file** to locate the file on your computer. The .csv file automatically uploads and searches for matching **Holdings** records.
+
+
+**Bulk edit allows a maximum of 100,000 records.** If more than 100,000 records are identified, the list of record identifiers must be reduced in order to perform the bulk edit. 
 
 
 ### Preview matched records
@@ -159,9 +163,14 @@ To suppress the matched item records from discovery in the Bulk edit app, follow
 The **Bulk edit** app accepts only .csv files for upload. Files should include only one column of record identifiers. If the file contains more than one column, the upload will not be successful and a *Something went wrong* message will display. 
 
 
+To set the criteria and identify records for bulk edit, follow these steps:
+
 1. In the **Set criteria** pane, ensure **Record types** is set to **Inventory - items**.
 2. In the **Set criteria** pane, select the **Record identifier** from the drop-down list. The record identifier you select should correspond to the type of record identifier in the CSV file uploaded.
 3. Either drag and drop your CSV file into the box, or click **or choose file** to locate the file on your computer. The .csv file automatically uploads and searches for matching **Items** records.
+
+
+**Bulk edit allows a maximum of 100,000 records.** If more than 100,000 records are identified, the list of record identifiers must be reduced in order to perform the bulk edit. 
 
 
 ### Preview matched records
@@ -407,6 +416,8 @@ The **record identifiers** for bulk edit include:
     - **Usernames**
       
 3. **Drag and drop** your .csv file into the **Select a file with record identifiers** box, or click **or choose file** to upload the .csv file from your computer.
+
+**Bulk edit allows a maximum of 100,000 records.** If more than 100,000 records are identified, the list of record identifiers must be reduced in order to perform the bulk edit.
 
 
 ### Preview matched records
