@@ -1,14 +1,15 @@
 ---
 title: "Bulk Edit"
 linkTitle: "Bulk Edit"
-date: 2025-02-21
+date: 2025-03-11
 weight: 550
 ---
 
 **This section of the documentation contains links to external sites. Please be advised that these external sites are not maintained by the FOLIO Documentation Group and may be aligned with a different FOLIO release.**
 
 
-The Bulk Edit app allows a user to apply changes to multiple Inventory or User records simultaneously.
+The Bulk Edit app allows a user to apply changes to multiple Inventory or User records simultaneously. The maximum number of records allowed for a bulk edit is 100,000.
+
 
 
 ## Permissions
@@ -159,6 +160,8 @@ In the Bulk edit app, the **Fields** available for building a query and displayi
 
 The Bulk edit app provides two methods for setting criteria and identifying records for bulk edit: **Identifier** and **Query**.  In either method, the **Record identifiers** or **Fields** available for selection are based on the **Record type**.
 
+**The maximum number of records allowed for bulk edit is 100,000.** If more than 100,000 records are identified, the query or list of record identifiers must be modified in order to perform the bulk edit.
+
 ### Identifier
 
 The **Identifier** approach allows the user to set criteria for the bulk edit by uploading a list of record identifiers from a .csv file.
@@ -242,6 +245,8 @@ To set criteria and identify records for bulk edit using the **Query** method:
 If the **Identifier** method is used to identify records for bulk edit, the number of records matched and the filename display at the top of the **Bulk edit** modal. 
 
 If the **Query** method is used to identify records for bulk edit, a **Test query** displays the query string and number of matched records at the top of the **Build query** modal. If the query is run, the **Query** and a preview of matched records display in the **Bulk edit query** modal.
+
+**The maximum number of records allowed for bulk edit is 100,000.** If more than 100,000 records are identified, the query or list of record identifiers must be modified in order to perform the bulk edit.
 
 To add or remove **Field** columns in the preview pane:
 
