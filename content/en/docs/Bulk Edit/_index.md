@@ -1,7 +1,7 @@
 ---
 title: "Bulk Edit"
 linkTitle: "Bulk Edit"
-date: 2025-03-11
+date: 2025-03-20
 weight: 550
 ---
 
@@ -56,7 +56,7 @@ In the Bulk edit app, the **Fields** available for building a query and displayi
 | *Holdings suppress from discovery* | YES | YES |
 | *Holdings temporary location* | YES | YES |
 | *Holdings temporary location ID* | NO | YES |
-| *Instance UUID* | NO | YES | 
+| *Instance UUID* | YES | YES | 
 
 ### Inventory - instances
 
@@ -96,11 +96,11 @@ In the Bulk edit app, the **Fields** available for building a query and displayi
 | *Item call number* | YES | YES |
 | *Item call number type ID* | NO | YES | 
 | *Item call number type name* | YES | YES |
-| *Item copy number* | NO | YES | 
-| *Item created date* | NO | YES | 
-| *Item effective call number* | NO | YES |
+| *Item copy number* | YES | YES | 
+| *Item created date* | YES | YES | 
+| *Item effective call number* | YES | YES |
 | *IItem effective call number type ID* | NO | YES |
-| *Item effective call number type name* | NO | YES |
+| *Item effective call number type name* | YES | YES |
 | *Item effective library code* | YES | YES |
 | *Item effective library ID* | NO | YES |
 | *Item effective library name* | YES | YES |
