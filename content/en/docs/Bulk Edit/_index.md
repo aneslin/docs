@@ -910,7 +910,7 @@ To perform bulk edit on the matched **User** records using the **Start bulk edit
      
 8. Click **Commit changes** to save the changes to the matched **User** records. The modal closes and the message at the top of the **Bulk edit** pane displays the number of successfully changed records.
 
-### Start bulk edit (Local)
+#### Start bulk edit (Local)
 
 The **Start bulk edit (Local)** function allows the user to perform a bulk edit on user records edited locally (external to FOLIO) by uploading a .csv file of the changed, or edited, user records. 
 
