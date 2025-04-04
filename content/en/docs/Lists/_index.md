@@ -1,7 +1,7 @@
 ---
 title: "Lists"
 linkTitle: "Lists"
-date: 2024-06-26        
+date: 2025-03-20       
 weight: 525
 ---
 **This section of the documentation contains links to external sites. Please be advised that these sites are not maintained by the FOLIO Documentation Group and may not be aligned with the current release of FOLIO.**
@@ -151,11 +151,19 @@ To set criteria and build a query for new list, follow these steps:
 
 4. Select an **Operator** from the **Select operator** drop-down list. The operators available for selection are based on the **Field**. 
 
-    - ==: Field equals the selected Value.
-    - !=: Field does not equal the selected Value.
-    - In: Field appears in the selected Value.
-    - Not in: Field does not appear in the selected Value.
-    - Is null/empty: Field is empty; it contains no data. 
+
+| Operator | Meaning |
+| :-----: | :----- |
+| *==* | Field equals the selected Value. |
+| *!=* | Field does not equal the selected Value. |
+| *>* | Field is greater than selected Value. |
+| *<* | Field is less than selected Value. |
+| *>=* | Field is greater than or equal to selected Value. |
+| *<=* | Field is less than or equal to selected Value. |
+| *contains* | Field appears in the selected Value. |
+| *starts with* | Field starts with the selected Value. |
+| *Is null/empty* | Field is empty; the Field contains no data.|
+
 
 5. Select a **Value** from the **Select value** drop-down list. The **Values** available for selection are based on the **Record Type** and **Field**.
 6. Click on the **+ icon** to add additional lines to the query; Click on the **trash can icon** to delete a line from the query. 

@@ -1,7 +1,7 @@
 ---
 title: "Bulk Edit"
 linkTitle: "Bulk Edit"
-date: 2025-03-11
+date: 2025-03-20
 weight: 550
 ---
 
@@ -56,7 +56,7 @@ In the Bulk edit app, the **Fields** available for building a query and displayi
 | *Holdings suppress from discovery* | YES | YES |
 | *Holdings temporary location* | YES | YES |
 | *Holdings temporary location ID* | NO | YES |
-| *Instance UUID* | NO | YES | 
+| *Instance UUID* | YES | YES | 
 
 ### Inventory - instances
 
@@ -96,11 +96,11 @@ In the Bulk edit app, the **Fields** available for building a query and displayi
 | *Item call number* | YES | YES |
 | *Item call number type ID* | NO | YES | 
 | *Item call number type name* | YES | YES |
-| *Item copy number* | NO | YES | 
-| *Item created date* | NO | YES | 
-| *Item effective call number* | NO | YES |
+| *Item copy number* | YES | YES | 
+| *Item created date* | YES | YES | 
+| *Item effective call number* | YES | YES |
 | *IItem effective call number type ID* | NO | YES |
-| *Item effective call number type name* | NO | YES |
+| *Item effective call number type name* | YES | YES |
 | *Item effective library code* | YES | YES |
 | *Item effective library ID* | NO | YES |
 | *Item effective library name* | YES | YES |
@@ -204,10 +204,8 @@ In the **Identifier** method, the **Record identifiers** available for selection
 
 ### Query
 
-The **Query** function in the Bulk Edit app allows the user to build a query to identify records for bulk edit. The **Fields** available for building a query are based on the selected **Record type**. The **Fields** available for building a query are based on the selected **Record type**. See [Supported fields by record type](#supported-fields-by-record-type) for more information. 
+The **Query** function in the Bulk Edit app allows the user to build a query to identify records for bulk edit. The **Fields** available for building a query are based on the selected **Record type**. See [Supported fields by record type](#supported-fields-by-record-type) for more information. 
 
-
-#### Build a query to identify records
 
 To set criteria and identify records for bulk edit using the **Query** method:
 
@@ -912,7 +910,7 @@ To perform bulk edit on the matched **User** records using the **Start bulk edit
      
 8. Click **Commit changes** to save the changes to the matched **User** records. The modal closes and the message at the top of the **Bulk edit** pane displays the number of successfully changed records.
 
-### Start bulk edit (Local)
+#### Start bulk edit (Local)
 
 The **Start bulk edit (Local)** function allows the user to perform a bulk edit on user records edited locally (external to FOLIO) by uploading a .csv file of the changed, or edited, user records. 
 
