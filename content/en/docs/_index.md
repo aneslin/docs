@@ -5,7 +5,11 @@ weight: 10
 ---
 
 {{% alert color="info"%}}
-This documentation supports the Ramsons release of FOLIO. Use the Releases menu to select a released version as needed.
+This documentation supports the Ramsons release of FOLIO.
+
+The Ramsons release has reached end-of-life on 2025-12-31, is no longer supported, has known security vulnerabilities, and should not be used in production.
+
+Use the Releases menu to select a released version as needed.
 {{% /alert %}}
 
 **This section of the documentation contains links to external sites. Please be advised that these external sites are not maintained by the FOLIO Documentation Group and may be aligned with a different FOLIO release.**
