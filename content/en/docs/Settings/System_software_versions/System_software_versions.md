@@ -39,7 +39,6 @@ Look for these modules to find out which FOLIO flower release the system runs. T
 
 | mod-inventory | mod-inventory-storage | release |
 | ------- | ------- | - |
-
 | 21.1.19  | 29.0.18  | [Sunflower R1-2025-okapi-csp-6](https://github.com/folio-org/platform-complete/blob/R1-2025-okapi-csp-6/install.json) |
 | 21.1.19  | 29.0.16  | [Sunflower R1-2025-okapi-csp-5](https://github.com/folio-org/platform-complete/blob/R1-2025-okapi-csp-5/install.json) |
 | 21.1.15  | 29.0.13  | [Sunflower R1-2025-okapi-csp-4](https://github.com/folio-org/platform-complete/blob/R1-2025-okapi-csp-4/install.json) |
