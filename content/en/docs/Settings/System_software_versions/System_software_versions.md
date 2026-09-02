@@ -39,6 +39,13 @@ Look for these modules to find out which FOLIO flower release the system runs. T
 
 | mod-inventory | mod-inventory-storage | release |
 | ------- | ------- | - |
+
+| 21.1.19  | 29.0.18  | [Sunflower R1-2025-okapi-csp-6](https://github.com/folio-org/platform-complete/blob/R1-2025-okapi-csp-6/install.json) |
+| 21.1.19  | 29.0.16  | [Sunflower R1-2025-okapi-csp-5](https://github.com/folio-org/platform-complete/blob/R1-2025-okapi-csp-5/install.json) |
+| 21.1.15  | 29.0.13  | [Sunflower R1-2025-okapi-csp-4](https://github.com/folio-org/platform-complete/blob/R1-2025-okapi-csp-4/install.json) |
+| 21.1.15  | 29.0.13  | [Sunflower R1-2025-okapi-csp-3](https://github.com/folio-org/platform-complete/blob/R1-2025-okapi-csp-3/install.json) |
+| 21.1.11  | 29.0.12  | [Sunflower R1-2025-okapi-csp-2](https://github.com/folio-org/platform-complete/blob/R1-2025-okapi-csp-2/install.json) |
+| 21.1.9  | 29.0.12  | [Sunflower R1-2025-okapi-csp-1](https://github.com/folio-org/platform-complete/blob/R1-2025-okapi-csp-1/install.json) |
 | 21.1.1  | 29.0.4  | [Sunflower R1-2025](https://github.com/folio-org/platform-complete/blob/R1-2025/install.json) |
 | 21.0.18 | 28.0.15 | [Ramsons R2-2025-csp-9](https://github.com/folio-org/platform-complete/blob/R2-2024-csp-9/install.json) |
 | 21.0.17 | 28.0.14 | [Ramsons R2-2025-csp-8](https://github.com/folio-org/platform-complete/blob/R2-2024-csp-8/install.json) |
